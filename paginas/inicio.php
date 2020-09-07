@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de registro bovino</title>
+    
+</head>
+<body>
+<?php
+include 'menu.php';
+   
+    ?>
+
+<div class="container-fluid p-4">
+    <div class="row">
+  <div class="col-md-3"></div>
+
+  <div class="col-md-7">
+    <div class="jumbotron">
+      <h1 class="display-4">Registro Bovino</h1>
+      <p class="lead">Este sistema tiene la finalidad de llevar el control total del gando de una finca.</p>
+      <hr class="my-4">
+      <p>El objetivo final del proyecto es contar de manera inmediata con la información de cada animal dentro del hato.
+      </p>
+      <p class="lead">Actualmente la version de escritorio del sistema se encuentra en desarrollo, a igual que la
+        version web</p>
+      <p class="lead">Puede ver el codigo de la version de escritorio en el siguiente botón accediendo a la carpeta SRC.
+      </p>
+      <a class="btn btn-primary btn-lg" href="https://github.com/dms2350/Registro-Bovino.git" role="button">Ver
+        codigo</a>
+    </div>
+  </div>
+
+  <div class="col-md-3"></div>
+</div>
+
+</div>
+</body>
+</html>
