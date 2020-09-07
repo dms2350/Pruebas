@@ -22,7 +22,7 @@
     <div class="alert alert-primary" role="alert">
         <h6 align="center">REGISTRO DE LOTES NUEVOS</h6>
     </div>
-    <form action="" method="POST">
+    <form action="lotes.php" method="POST">
 
         <div class="form-group">
             <input type="text" class="form-control" name="finca" placeholder="Nombre de la finca" required onclick="mostrarToast()">
@@ -36,7 +36,7 @@
         <div class="form-group">
             <input type="text" class="form-control" name="direccion" placeholder="Direccion de la finca" required>
         </div>
-        <button type="submit" name="submit" class="btn btn-primary btn-block" onclick=""> Guardar</button>
+        <button type="submit" name="submit" class="btn btn-primary btn-block" onclick="message()"> Guardar</button>
 
     </form>
 </div>
@@ -51,11 +51,12 @@
             $guardar = insertar($tabla,$campos);
 
             if($guardar){
-                echo "Registro Aplicado";
+                echo "<script>alert('Registrado');</script>";
             }
             else{
                 echo "No registrado";
             }
+            
         }
     
     ?>

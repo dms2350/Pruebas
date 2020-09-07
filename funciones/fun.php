@@ -10,6 +10,6 @@
                 $sql = "insert into ".$tabla."(".implode(',',$resultado).") values('".implode("','",$datos)."')";
                 return db($sql);
             } 
-       
+    
 
 ?>
