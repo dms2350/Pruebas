@@ -8,7 +8,7 @@
 </head>
 <body>
 <?php
-include 'menu.php';
+include '../paginas/menu.php';
    
     ?>
 
