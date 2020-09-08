@@ -44,7 +44,7 @@
 </div>
 </div>
 <?php
-    include '../funciones/fun.php';
+    include 'funciones/fun.php';
         if(isset($_POST['submit'])){
             $campos = array("nombre"=>$_POST['finca'],"estado"=>$_POST['estado'],"responsable"=>$_POST['respon'],"direccion"=>$_POST['direccion']);
             $tabla = "lote_ganado";
