@@ -25,10 +25,11 @@ include 'menu.php';
       </p>
       <p class="lead">Actualmente la version de escritorio del sistema se encuentra en desarrollo, a igual que la
         version web</p>
-      <p class="lead">Puede ver el codigo de la version de escritorio en el siguiente botón accediendo a la carpeta SRC.
-      </p>
-      <a class="btn btn-primary btn-lg" href="https://github.com/dms2350/Registro-Bovino.git" role="button">Ver
-        codigo</a>
+      <!--<p class="lead">Puede ver el codigo de la version de escritorio en el siguiente botón accediendo a la carpeta SRC.
+      </p>--> <strong>ACTUALMENTE ESTE SISTEMA SE ENCUENTRA EN CONSTRUCCÓN, POR LO QUE SE PUEDEN PRESENTAR CAIDAS
+      <br>EN EL SISTEMA MIENTRAS SE REALIZAN CAMBIOS EN EL CODIGO, Y SE RECONFIGURA EL SERVIDOR....</strong>
+      <!--<a class="btn btn-primary btn-lg" href="https://github.com/dms2350/Registro-Bovino.git" role="button">Ver
+        codigo</a>-->
     </div>
   </div>
 
