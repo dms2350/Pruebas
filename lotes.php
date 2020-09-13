@@ -45,11 +45,12 @@
 </div>
 <?php
     include 'funciones/fun.php';
+    $fecha = datatime();
         if(isset($_POST['submit'])){
-            $campos = array("nombre"=>$_POST['finca'],"estado"=>$_POST['estado'],"responsable"=>$_POST['respon'],"direccion"=>$_POST['direccion']);
+            $campos = array("nombre"=>$_POST['finca'],"estado"=>$_POST['estado'],"responsable"=>$_POST['respon'],"direccion"=>$_POST['direccion'],"registro"=>$fecha);
             $tabla = "lote_ganado";
             $guardar = insertar($tabla,$campos);
-
+            
             if($guardar){
                 echo "<script>alert('Registrado');</script>";
             }
